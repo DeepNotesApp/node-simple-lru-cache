@@ -1,34 +1,44 @@
 {
-  "name": "simple-lru-cache",
+  "name": "@deepnotes/simple-lru-cache",
   "version": "0.0.2",
   "author": "Gabriel Eisbruch",
   "description": "",
   "main": "index",
-  "keywords":["cache","lru","simple","fast"],
+  "keywords": [
+    "cache",
+    "lru",
+    "simple",
+    "fast"
+  ],
   "directories": {
     "lib": "./lib"
   },
-  "maintainers": [{
-      "name":"Gabriel Eisbruch",
-      "email":"gabrieleisbruch@gmail.com",
-      "web":"http://www.mercadolibre.com"
-  }],
-  "licenses": [{
+  "maintainers": [
+    {
+      "name": "Gabriel Eisbruch",
+      "email": "gabrieleisbruch@gmail.com",
+      "web": "http://www.mercadolibre.com"
+    }
+  ],
+  "licenses": [
+    {
       "type": "MIT",
       "url": "https://github.com/geisbruch/node-simple-lru-cache/blob/master/LICENSE"
-  }],
-  "repositories": [{
+    }
+  ],
+  "repositories": [
+    {
       "type": "git",
-      "url" : "http://github.com/geisbruch/node-simple-lru-cache.git"
-  }],
-  "dependencies": {
-  },
+      "url": "http://github.com/geisbruch/node-simple-lru-cache.git"
+    }
+  ],
+  "dependencies": {},
   "devDependencies": {
-      "mocha": "*",
-      "should": "*"
+    "mocha": "*",
+    "should": "*"
   },
   "scripts": {
-      "test": "make test",
-      "bench":"make bench"
+    "test": "make test",
+    "bench": "make bench"
   }
 }
